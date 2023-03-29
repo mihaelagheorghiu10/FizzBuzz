@@ -35,4 +35,10 @@ class FizzBuzzTest {
         var ex = fizzBuzz.execute(45);
         assertEquals( "FizzBuzz",ex);
     }
+    @Test
+    void testCuandoNoSeaMultiploDe3Y5DevuelveElMismoNumero(){
+        var fizzBuzz = new FizzBuzz();
+        var ex = fizzBuzz.execute(13);
+        assertEquals( "13",ex);
+    }
 }
