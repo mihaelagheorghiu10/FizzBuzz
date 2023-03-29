@@ -29,4 +29,10 @@ class FizzBuzzTest {
         var exect = fizzBuzz.execute(5);
         assertEquals("Buzz", exect);
     }
+    @Test
+    void testParaNúmerosMúltiplosDeTresYCincoDevuelvaFizzBuzz(){
+        var fizzBuzz = new FizzBuzz();
+        var ex = fizzBuzz.execute(45);
+        assertEquals( "FizzBuzz",ex);
+    }
 }
